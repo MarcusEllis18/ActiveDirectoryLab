@@ -12,6 +12,4 @@ Additionally, this lab includes a hands-on ServiceNow environment, where I explo
 
 <h2>Project Overview</h2>
 
-
-| heading | heading2 |
-|.........|..........|
+/table
