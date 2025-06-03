@@ -36,7 +36,7 @@ Additionally, this lab includes a hands-on ServiceNow environment, where I explo
 
 
 Watch me Provision an Instance 
-https://www.loom.com/share/246a391ad0e4452ba9508e93b4410c5b?sid=6e22aaad-ed93-4b70-9f86-13d594ff05e4
+https://www.loom.com/share/5331c375ecba468db9c423f684f0561d?sid=29500a94-af31-4ddf-9f60-f5b8e32c8516
 
 Watch me Configure Active Directory, Password/User/Group
 https://www.loom.com/share/e67cada0ea00477abc37b5b98bb465fc?sid=fa81eeb1-0bc2-4574-bf2d-97de19f1d7f3
