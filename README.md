@@ -29,6 +29,7 @@ Additionally, this lab includes a hands-on ServiceNow environment, where I explo
 3. Install Active Directory Domain Services via Server Manager.
 4. Promote the server to a Domain Controller and create a test domain.
 
+https://www.loom.com/share/246a391ad0e4452ba9508e93b4410c5b?sid=6e22aaad-ed93-4b70-9f86-13d594ff05e4
 ---
 
 <h3>Create Users, Groups and Reset passwords in Active Directory</h3>
