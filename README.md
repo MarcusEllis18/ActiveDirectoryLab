@@ -14,17 +14,42 @@ This project documents the process of provisioning a virtual machine in AWS, whi
 | Goal |  Simulate daily helpdesk operations in a lab setting          |
 
 
-<h3>EC2 Instance Setup</h3>
+<h3>🔧EC2 Instance Setup</h3>
 
-1. Launched a Windows Server EC2 instance using AWS.
-2. Enable RDP Access.
-3. Install Active Directory Domain Services via Server Manager.
-4. Promote the server to a Domain Controller and create a test domain.
+1. Logged in to the AWS Management Console.
+2. Navigated to the EC2 Dashboard.
+3. Clicked "Launch Instance".
+4. Chose a Windows Amazon Machine Image.
+5. Selected an Instance Type.
+8. Added Tags for identification.
+9. Configured Security Group.
+10. Reviewed and launched the instance.
+11. Selected an existing key pair to access the instance.
+12. Launched the instance and verified it in the EC2 Dashboard.
 
 
 <h3>Create Users, Groups and Reset passwords in Active Directory</h3>
 
+✅ Creating a New User
+1. Open Active Directory Users and Computers.
+2. Navigate to the appropriate Organizational Unit.
+3. Right-click the OU > Select New > User.
+4. Enter First Name, Last Name, and User Logon Name.
+5. Click Next and set a password (optionally require password change at next login).
 
+✅ Creating a New Group
+1. In ADUC, navigate to the desired OU.
+2. Right-click > Select New > Group.
+3. Enter a Group Name.
+4. Choose Group Scope.
+5. Click OK to create the group.
+
+✅ Changing a User Password
+1. In ADUC, right-click the user account.
+2. Select Reset Password.
+3. Enter the new password and confirm it.
+4. Choose whether to require the user to change it at next login.
+5. Click OK to apply.
 
 Watch me Provision an Instance 
 https://www.loom.com/share/5331c375ecba468db9c423f684f0561d?sid=29500a94-af31-4ddf-9f60-f5b8e32c8516
