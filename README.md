@@ -51,7 +51,7 @@ This project documents the process of provisioning a virtual machine in AWS, whi
 4. Choose whether to require the user to change it at next login.
 5. Click OK to apply.
 
-Watch me Provision an Instance. ⬇️
+Watch me Provision an EC2 Instance. ⬇️
 
 https://www.loom.com/share/5331c375ecba468db9c423f684f0561d?sid=29500a94-af31-4ddf-9f60-f5b8e32c8516
 
