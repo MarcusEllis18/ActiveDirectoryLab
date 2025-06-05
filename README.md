@@ -51,10 +51,12 @@ This project documents the process of provisioning a virtual machine in AWS, whi
 4. Choose whether to require the user to change it at next login.
 5. Click OK to apply.
 
-Watch me Provision an Instance 
+Watch me Provision an Instance. ⬇️
+
 https://www.loom.com/share/5331c375ecba468db9c423f684f0561d?sid=29500a94-af31-4ddf-9f60-f5b8e32c8516
 
-Watch me Configure Active Directory, Password/User/Group
+Watch me Configure Active Directory, password, user and group. ⬇️
+
 https://www.loom.com/share/e67cada0ea00477abc37b5b98bb465fc?sid=fa81eeb1-0bc2-4574-bf2d-97de19f1d7f3
 
 ---
@@ -67,7 +69,9 @@ https://www.loom.com/share/e67cada0ea00477abc37b5b98bb465fc?sid=fa81eeb1-0bc2-45
 4. Fill out the Description field with details about the problem.
 5. Submit the ticket to log the incident.
 
-Watch me Create a Ticket in ServiceNow.
+Watch me Create a Ticket in ServiceNow. ⬇️
+
+https://www.loom.com/share/19b75c9b0d2f450da2e2482d8768d970?sid=abf69408-7804-44e0-b0ea-6c88e56f5f51
 
 
 
