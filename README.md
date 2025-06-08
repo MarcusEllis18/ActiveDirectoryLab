@@ -1,4 +1,4 @@
-<h1>Help Desk Emulation Project (Active Directory + ServiceNow)</h1>
+<h1>Help Desk Emulation Project (Active Directory + ServiceNow + Spiceworks)</h1>
 
 This project documents the process of provisioning a virtual machine in AWS, which serves as the foundation for setting up Active Directory. The VM is configured to support core IT workflows, including User account management, password resets as well as incident tracking and resolution. Additionally, this lab includes a hands-on ServiceNow environment, where I create a ticket in ServiceNow.
 
@@ -69,10 +69,29 @@ https://www.loom.com/share/e67cada0ea00477abc37b5b98bb465fc?sid=fa81eeb1-0bc2-45
 4. Fill out the Description field with details about the problem.
 5. Submit the ticket to log the incident.
 
+
 Watch me Create a Ticket in ServiceNow. ⬇️
 
 https://www.loom.com/share/19b75c9b0d2f450da2e2482d8768d970?sid=abf69408-7804-44e0-b0ea-6c88e56f5f51
 
+---
+
+<h2>Creating a Ticket in Spiceworks</h2>
+
+
+1. Log into the Spiceworks portal.
+2. Navigate to the IT Tools tab.
+3. Select "Cloud Help Desk".
+4. Click "Try Cloud Help Desk".
+5. Click on "+ New Ticket".
+6. Fill out the description field with a details about the problem
+7. Select "Create" to create the ticket.
+
+
+Watch me create a ticket in Spiceworks. ⬇️
+
+
+https://www.loom.com/share/a0d169587fd04f93b40de49d96c5b34d?sid=2f961b9d-ee42-4a0b-9a88-19f016c9a2f0
 
 
 
