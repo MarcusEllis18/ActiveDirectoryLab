@@ -29,6 +29,42 @@ This project demonstrates a full emulation of help desk workflows in a controlle
 
 ---
 
+## 🛠️ Configuring Active Directory on AWS (Windows Server VM)
+
+This section outlines the step-by-step process of installing and configuring **Active Directory Domain Services (AD DS)** on a Windows Server virtual machine hosted on AWS.
+
+### 📋 Steps to Install Active Directory
+
+1. Click the **Windows icon** and open **Server Manager**.
+2. In the **Configure this local server** panel, click **Add roles and features**.
+3. In the **Add Roles and Features Wizard**, click **Next** until you reach the **Installation Type** screen.
+4. Ensure **Role-based or feature-based installation** is selected, then click **Next**.
+5. On the **Server Selection** tab, confirm **Select a server from the server pool** is selected, and click **Next**.
+6. On the **Select server roles** screen, check the box for **Active Directory Domain Services**.
+7. A dialog will appear asking to install required features—click **Add Features**, then click **Next** twice.
+8. On the **AD DS** overview screen, click **Next**.
+9. In the **Confirmation** tab, click **Install**.
+
+### ⚙️ Promoting the Server to a Domain Controller
+
+10. After installation, click the **flag icon** in the upper-right corner and select **Promote this server to a domain controller**.
+11. Under **Deployment Configuration**, choose **Add a new forest**.
+12. Enter your root domain name:  
+    **`learn.local`**, then click **Next**.
+13. In the **Domain Controller Options** tab:
+    - Set a **Directory Services Restore Mode (DSRM) password**
+    - Click **Next**
+14. Leave default settings in the **DNS Options** tab and click **Next**.
+15. The wizard will auto-generate a **NetBIOS domain name** based on your root domain—click **Next**.
+16. In the **Paths** tab, accept the defaults and click **Next**.
+17. Review your configuration and click **Next**.
+18. On the final screen, click **Install**.
+
+🔄 The server will automatically restart upon completion of the configuration.
+
+✅ **Result**: Your AWS-hosted Windows Server is now configured as a Domain Controller with Active Directory installed and running under the domain `learn.local`.
+
+
 ## 👥 Active Directory: User, Group & Password Management
 
 ### ✅ Creating a New User
@@ -47,7 +83,7 @@ This project demonstrates a full emulation of help desk workflows in a controlle
 - Enter a new password and confirm.
 - Optional: Require password change at next login.
 
-🎥 [Watch me configure AD, users, groups, and passwords](https://www.loom.com/share/e67cada0ea00477abc37b5b98bb465fc?sid=fa81eeb1-0bc2-4574-bf2d-97de19f1d7f3)
+🎥 [Watch me configure AD, create a user, group, and reset a password](https://www.loom.com/share/e67cada0ea00477abc37b5b98bb465fc?sid=fa81eeb1-0bc2-4574-bf2d-97de19f1d7f3)
 
 ---
 
