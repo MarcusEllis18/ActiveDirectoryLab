@@ -109,7 +109,4 @@ This section outlines the step-by-step process of installing and configuring **A
 
 ---
 
-## 📂 Purpose of This Repository
-
-This repository showcases hands-on experience simulating real-world IT support scenarios. It highlights the deployment and use of essential tools like Active Directory, ServiceNow, and Spiceworks to manage IT operations in a help desk setting.
 
